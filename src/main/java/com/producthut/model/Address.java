@@ -2,22 +2,26 @@ package com.producthut.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class Admin {
-    @Id
+@AllArgsConstructor
+@EqualsAndHashCode
+
+public class Address {
+	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
-	private String userName;
-	private String password;
+	private Integer addressId;
+	private String city;
+	private String district;
+	private String state;
+	private String postalCode;
 
 }
