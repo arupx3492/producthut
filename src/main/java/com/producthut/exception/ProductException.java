@@ -1,10 +1,14 @@
 package com.producthut.exception;
 
-public class ProductException extends RuntimeException{
+public class ProductException extends Exception {
+
 	public ProductException() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public ProductException(String message) {
 		super(message);
+		// TODO Auto-generated constructor stub
 	}
+
 }

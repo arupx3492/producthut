@@ -1,13 +1,15 @@
 package com.producthut.exception;
 
-public class AddressException extends Exception {
-	public AddressException() {
-		super();
+public class FeedbackException extends Exception {
+
+	public FeedbackException() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public AddressException(String message) {
+	public FeedbackException(String message) {
 		super(message);
 		// TODO Auto-generated constructor stub
 	}
+	
+	
 }

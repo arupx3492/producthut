@@ -1,13 +1,11 @@
 package com.producthut.exception;
 
-public class UserException extends Exception {
+public class LoginException extends Exception {
 	
-	public UserException() {
+	public LoginException() {
 		// TODO Auto-generated constructor stub
 	}
-	
-
-	public UserException(String msg) {
+	public LoginException(String msg) {
 		super(msg);
 		// TODO Auto-generated constructor stub
 	}

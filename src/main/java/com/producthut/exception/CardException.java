@@ -1,10 +1,13 @@
 package com.producthut.exception;
 
 public class CardException extends Exception {
-	public CardException(){
-
+	public CardException() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
-	public CardException(String message){
+
+	public CardException(String message) {
 		super(message);
+		// TODO Auto-generated constructor stub
 	}
 }
